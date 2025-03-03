@@ -10,7 +10,7 @@
     "ecmaFeatures": {},
   },
   "settings": {},
-  "ignorePatterns": ["dist/*"],
+  "ignorePatterns": ["dist/*", "**/*.md"],
   "rules": {
     "space-before-function-parens": 0,
     "@typescript-eslint/no-unused-vars": "error",

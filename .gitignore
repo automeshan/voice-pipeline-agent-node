@@ -181,7 +181,6 @@ dist
 temp
 
 # typedoc
-docs
 
 # direnv
 .direnv
