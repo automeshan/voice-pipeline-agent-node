@@ -27,6 +27,7 @@
     "@livekit/agents-plugin-openai": "^0.8.1",
     "@livekit/agents-plugin-silero": "^0.5.3",
     "@livekit/rtc-node": "^0.13.3",
+    "@supabase/supabase-js": "^2.49.1",
     "dotenv": "^16.4.5",
     "zod": "^3.23.8"
   }
