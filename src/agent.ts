@@ -246,7 +246,11 @@ try {
   console.log('Agent file path:', agentPath);
 
   // Create worker options with detailed logging
-  const workerOptions = new WorkerOptions({ agent: agentPath });
+  const workerOptions = new WorkerOptions({
+    agent: agentPath,
+    // giving this agent a name of: "inbound-agent"
+    agentName: 'inbound-agent',
+  });
   console.log('Worker options created:', JSON.stringify(workerOptions, null, 2));
 
   // Run the CLI app with the worker options
